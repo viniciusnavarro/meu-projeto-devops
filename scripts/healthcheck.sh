@@ -18,4 +18,5 @@ else
     echo "[FALHA] Disco: ${USO_DISCO}% usado (acima de 80%!)"
 fi
 
+echo "[OK] Tempo ligado: $(uptime -p)"
 echo "=== Fim do health check ==="
